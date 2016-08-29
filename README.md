@@ -20,4 +20,20 @@ Think about before we started learning DB's. We used the `fs` module to read and
 We will be using the same logic but now we are interacting with an actual database.
 
 # CRUD OPERATIONS as they pertain to SQL
-![CRUD_REST_SQL](./CRUD_SQL_REST.jpg)
+![CRUD_REST_SQL
+](./CRUD_SQL_REST.jpg)
+
+# Exercise
+- A company presents you with the following ERD ![ERD](./erd.png)
+- Build a schema file that accomplishes this schema, then complete each task.
+
+## Steps
+- Create a new file called `schema.sql`. Add the code to create the necessary tables shown in the ERD.
+
+- Then, create a SQL file for each table. Add an Insert statement to each associated file to seed the tables.
+
+- Let's change some of that data using UPDATE. Add the necessary UPDATE statement to change the number of jobs you've applied to.
+
+- Now let's change who's teaching what class. Add the necessary UPDATE statement to change the teacher of the Promises class to Ben, and have Wes teach "Defense Against the Dark Queries"
+
+- Finally, you're hired! Use DELETE to remove yourself from the students table!
