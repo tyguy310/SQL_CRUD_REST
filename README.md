@@ -1,1 +1,1 @@
-![CRUD_REST_SQL](./SQL_CRUD.jpg)
+![CRUD_REST_SQL](./CRUD_SQL_REST.jpg)
