@@ -22,17 +22,19 @@ Build a schema for students, teachers, and "classes", in g30. Create a new file 
 
 ## Steps
 - INSERT
-  - A statement to insert all students has been added for you in `students.sql`
-  - Add each teacher to the teachers table.
+  - A statement to insert all current students and teachers have been added for you in `students.sql`
+  - Add a new student who has applied to 10 jobs
+  - Add a new instructor
+  - Add at least 3 different classes
 - UPDATE
   - Change the number of jobs you've applied to 3.
   - Change the number of jobs a classmate has applied to 5.
   - Change who's teaching one of the classes.
 - SELECT
-  - Select all classes
   - Select all students who have applied to at least 1 job.
-  - Select all teachers whose last name are Herman or Hassara.
+  - Select all teachers whose last names are Herman or Hassara.
+  - Select all classes taught by teachers whose last names are Reid or Hajek.
 - DELETE
-  - Remove all students who have applied to at least 5 jobs yet.
-  - Remove
+  - Remove all students who have applied to more than 5 jobs.
+  - Remove the class with your least favorite subject.
   - Finally, you're hired! Remove yourself from the students table!

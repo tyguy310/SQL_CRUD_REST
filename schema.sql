@@ -21,3 +21,7 @@ CREATE TABLE classes (
   id serial primary key,
   subject varchar(255) NOT NULL
 );
+
+-- add teacher/classes references
+ALTER TABLE classes
+ADD teacher_id integer REFERENCES teachers(id);

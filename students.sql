@@ -33,22 +33,28 @@ VALUES
   ('Tommy', 'Gaessler'),
   ('Tyler', 'Maier');
 
-UPDATE students
+INSERT INTO students (first_name, last_name)
+VALUES ('Morty', 'Smith');
+
+
+-- change jobs applied to 3
+UPDATE s*
 SET jobs_applied=3
-WHERE last_name = 'Franzen';
+WHERE s.last_name = 'Franzen';
 
-
-UPDATE students
+-- change jobs applied to 5
+UPDATE s*
 SET jobs_applied=5
-WHERE last_name = 'Benz';
+WHERE s.last_name = 'Benz';
 
 
--- SELECT
-SELECT s.*
-FROM students s
-WHERE s.first_name = 'Alias';
+-- students with at least 1 jobs_applied
+SELECT FROM students
+WHERE jobs_applied >= 1;
 
--- students with less than 5 jobs_applied
-SELECT *
-FROM students
-WHERE jobs_applied < 5;
+DELETE FROM students
+WHERE jobs_applied > 5;
+
+
+DELETE FROM students
+WHERE last_name = 'Franzen';
