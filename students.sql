@@ -32,23 +32,3 @@ VALUES
   ('Shane', 'Pittman'),
   ('Tommy', 'Gaessler'),
   ('Tyler', 'Maier');
-
-UPDATE students
-SET jobs_applied=3
-WHERE last_name = 'Franzen';
-
-
-UPDATE students
-SET jobs_applied=5
-WHERE last_name = 'Benz';
-
-
--- SELECT
-SELECT s.*
-FROM students s
-WHERE s.first_name = 'Alias';
-
--- students with less than 5 jobs_applied
-SELECT *
-FROM students
-WHERE jobs_applied < 5;
