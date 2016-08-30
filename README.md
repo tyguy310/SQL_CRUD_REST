@@ -25,15 +25,22 @@ We will be using the same logic but now we are interacting with an actual databa
 
 # Exercise
 - A company presents you with the following ERD ![ERD](./erd.png)
-- Build a schema file that accomplishes this schema, then complete each task.
+- Create a new file called `schema.sql`. Add the code to create the necessary tables shown in the ERD, then follow each step.
 
 ## Steps
-- Create a new file called `schema.sql`. Add the code to create the necessary tables shown in the ERD.
-
-- Then, create a SQL file for each table. Add an Insert statement to each associated file to seed the tables.
-
-- Let's change some of that data using UPDATE. Add the necessary UPDATE statement to change the number of jobs you've applied to.
-
-- Now let's change who's teaching what class. Add the necessary UPDATE statement to change the teacher of the Promises class to Ben, and have Wes teach "Defense Against the Dark Queries"
-
-- Finally, you're hired! Use DELETE to remove yourself from the students table!
+- INSERT
+  - Add each teacher to the teachers table.
+  - Add each student to the students table.
+  - Add at least 4 different classes, and who's teaching them.
+- UPDATE
+  - Change the number of jobs you've applied to 3.
+  - Change the number of jobs a classmate has applied to 5.
+  - Change who's teaching one of the classes.
+- SELECT
+  - Select all students in the who have applied to at least 1 job.
+  - Select all students from one of your classes.
+  - Select all students from one of your classes, who've applied to at least 3 jobs.
+- DELETE
+  - Delete all students who haven't applied to a job yet.
+  - Delete the Janky Python class from the classes table!
+  - Finally, you're hired! Use DELETE to remove yourself from the students table!
