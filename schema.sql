@@ -28,4 +28,5 @@ ADD teacher_id integer REFERENCES teachers(id);
 
 CREATE TABLE classes_students (
   class_id integer REFERENCES classes(id),
-  student_id integer REFERENCES students(id);
+  student_id integer REFERENCES students(id)
+);
