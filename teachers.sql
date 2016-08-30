@@ -1,6 +1,3 @@
--- connect to db
-\connect galvanize;
-
 -- delete existing rows
 TRUNCATE teachers CASCADE;
 
