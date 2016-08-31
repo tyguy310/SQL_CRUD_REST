@@ -7,7 +7,7 @@ VALUES
   ('Michael', 'Herman'),
   ('Wes', 'Reid'),
   ('Robby', 'Hajek'),
-  ('Ben', 'Hassara');
+  ('George', 'Bluth');
 
-  INSERT INTO teachers (first_name, last_name)
-  VALUES ('George', 'Bluth');
+  -- INSERT INTO teachers (first_name, last_name)
+  -- VALUES ('George', 'Bluth');

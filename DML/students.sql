@@ -30,5 +30,5 @@ VALUES
   ('Tommy', 'Gaessler'),
   ('Tyler', 'Maier');
 
-  INSERT INTO students (first_name, last_name, jobs_applied)
-  VALUES ('Emmitt', 'Awesome', 10);
+  -- INSERT INTO students (first_name, last_name, jobs_applied)
+  -- VALUES ('Emmitt', 'Awesome', 10);
